@@ -4,16 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        body{
+body{
     font-family : Arial;
     background-color: rgb(65, 65, 255);
-    background-image: url('https://techno-safe.com.mx/wp-content/uploads/2019/04/BLOG-INV-01-e1555003687669.jpg');
-    background-repeat: no-repeat;
-    background-size: 700px;
-    background-position: left;
-    padding: 100px;
-    margin: 100px;
-  }
+}
 
 .button{
     background-color: rgb(27, 27, 133);
@@ -23,6 +17,24 @@
 }
 
 div{
+    background-image: url('https://techno-safe.com.mx/wp-content/uploads/2019/04/BLOG-INV-01-e1555003687669.jpg');
+    background-size: 700px;
+    background-repeat: no-repeat;
+    margin: 100px;
+    height: 700px;
+}
+
+form{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-right: 5%;
+    padding-top: 5%;
     text-align: right;
 }
 
@@ -39,6 +51,7 @@ a{
     <title>Iniciar Sesión</title>
 </head>
 <body>
+    <h1>Sistema de Gestión de Inventarios</h1>
     <div>
         <h2>¡Bienvenido!</h2>
         <form action="" method="POST" name="formulario" id="formulario">
@@ -48,8 +61,8 @@ a{
             <input type="password" name="password" id="password" placeholder="Contraseña">
             <br>
             <br>
-            <input class="button" type="submit"  value="Iniciar Sesión">
-            <a href="" >Recuperar contraseña</a>
+            <input class="button" type="submit" value="Iniciar Sesión">
+            <a href="">Recuperar contraseña</a>
         </form>
     </div>
 </body>
