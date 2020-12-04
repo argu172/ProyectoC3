@@ -1,0 +1,26 @@
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    background-color: brown;
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+}
+
+.buscador{
+    text-align: center;
+}
+
+.bb{
+    width: 60%;
+}

@@ -1,0 +1,62 @@
+body{
+    background-image: url('imagenes/f438f3600d2690018f981c66e7935b49.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+input {
+    height: 25px;
+    width: 100%;
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+div {
+    width: 50%;
+    text-align: center;
+    margin: 15% auto;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+.boton1 {
+    background-color: rgb(240, 150, 150);
+}
+
+h2 {
+    color: saddlebrown;
+}
+
+.boton:hover {
+    background-color: skyblue;
+    color: black;
+}
+
+body, html{
+    padding: 0; /*Relleno interior*/
+    margin: 0; /*Espacio exterior*/
+}
+ul li {
+    display: inline;
+}
+
+ul li a {
+    text-decoration: none; /*Quita el subrayado al enlace: <a> */
+    color: white; /*Color de fuente*/
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    background-color: royalblue; /*Color de fondo*/
+    text-align: right; /*Alineación*/
+    margin: 0px;
+    padding: 10px;
+}

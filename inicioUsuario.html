@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/usuario.css">
+    
+
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="crearProducto.html">Crear Producto</a></li>
+            <li><a href="nuevoUsuario.html">Crear Usuario</a></li>
+            <li><a href="login.html">Cerrar Sesion</a></li>
+        </ul>
+    </header>
+    
+    <container class="container">
+        <div class="busqueda">
+            <label for="caja_busqueda">Buscar</label>
+            <input type="text" name="caja_busqueda" id="searchTerm" onkeyup="doSearch()">
+        </div>
+        <div class="d_tabla">
+            <table id="regTable" class="tabla">
+                <tr>
+                    <th>Referencia</th>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>Imagen</th>
+                </tr>
+                <tr onclick="location.href='actualizarInventario.html'">
+                    <td>1</td>
+                    <td>Almohabana</td>
+                    <td>50</td>
+                    <td><img src="css/img/almohabana.jpg" alt=""></td>
+                </tr>
+                <tr onclick="location.href='actualizarInventario.html'">
+                    <td>2</td>
+                    <td>Cafe</td>
+                    <td>94</td>
+                    <td><img src="css/img/cafe.jpg" alt=""></td>
+                </tr>
+                <tr onclick="location.href='actualizarInventario.html'">
+                    <td>3</td>
+                    <td>croissant</td>
+                    <td>94</td>
+                    <td><img src="css/img/crissant.jpg" alt=""></td>
+                </tr>
+            </table>
+        </div> 
+       <!--barra de busqueda-->
+        <nav>           
+        </nav>
+       <!--resultado-->
+        <iframe src="">
+            
+        </iframe>
+        
+
+    </container>
+    <script src="JavaScript/tabla.js"></script>
+</body>
+</html>

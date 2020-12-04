@@ -1,0 +1,43 @@
+.button{
+    background-color: rgb(27, 27, 133);
+    color: white;
+    height: 30px;
+    width: 100px
+}
+
+div{
+    background-image: url("img/cafeteria_login.jpg");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    margin: 100px;
+    height: 700px;
+}
+
+form{
+    text-align: right;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(37, 10, 10);
+}
+
+h2{
+    margin-right: 5%;
+    padding-top: 5%;
+    text-align: right;
+    color: white;
+}
+
+input{
+    height: 30px;
+    width: 260px;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 80%px;
+    color: rgb(219, 41, 41);
+    background-color: rgb(37, 10, 10);
+}
